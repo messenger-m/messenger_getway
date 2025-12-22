@@ -1,0 +1,10 @@
+info:
+  contact: {}
+  title: Api Gateway
+paths:
+  /auth/login:
+    post:
+      description: proxy to auth service
+      responses: {}
+      summary: Auth
+swagger: "2.0"

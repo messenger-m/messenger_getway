@@ -1,0 +1,16 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Api Gateway",
+        "contact": {}
+    },
+    "paths": {
+        "/auth/login": {
+            "post": {
+                "description": "proxy to auth service",
+                "summary": "Auth",
+                "responses": {}
+            }
+        }
+    }
+}
