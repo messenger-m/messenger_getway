@@ -6,6 +6,7 @@ require (
 	github.com/gofiber/contrib/swagger v1.3.0
 	github.com/gofiber/fiber/v2 v2.52.6
 	github.com/gofiber/websocket/v2 v2.2.1
+	github.com/redis/go-redis/v9 v9.17.2
 	github.com/swaggo/swag v1.16.6
 )
 
@@ -13,6 +14,8 @@ require (
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fasthttp/websocket v1.5.3 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
 	github.com/go-openapi/errors v0.20.4 // indirect
