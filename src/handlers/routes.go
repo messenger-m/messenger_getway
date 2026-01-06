@@ -7,6 +7,7 @@ import (
 
 func SetupRoutes(app *fiber.App) {
 	app.Post("/login", LoginHandler)
+	app.Post("/register", RegisterHandler)
 	app.Get("/ws", websocket.New(WebSocketHandler))
 
 }
